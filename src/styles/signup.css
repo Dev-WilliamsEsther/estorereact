@@ -1,0 +1,79 @@
+.loginwrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #432816;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details1{
+    width: 40%;
+    height: 90%;
+    background-color: purple;
+    background-image:url("../assets/JLUXLABEL copy.jpeg") ;
+}
+.details2{
+    width: 40%;
+    height: 90%;
+    background-color: #bb8f68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deets{
+    width: 90%;
+    height: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.fullname{
+    width: 70%;
+    height: 10%;
+    /* background-color: pink; */
+    
+}
+.input{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.nametext{
+    width: 100%;
+    height: 30%;
+    /* background-color: cadetblue; */
+}
+.email{
+    width: 70%;
+    height: 10%;
+    /* background-color: black; */
+}
+.password{
+    width: 70%;
+    height: 10%;
+    /* background-color: red; */
+}
+.signup{
+    width: 70%;
+    height: 10%;
+    background-color: #54331e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ifelse{
+    width: 50%;
+    height: 10%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & b{
+        color: white;
+    }
+}

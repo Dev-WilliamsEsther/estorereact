@@ -1,0 +1,143 @@
+[
+    {
+        "id":1,
+        "name":"Tank Tops",
+        "category":"new",
+        "price":"$84",
+        "image":"src/assets/images/_ copy.jpeg"
+    },
+    {
+        "id":2,
+        "name":"Casual x Denim",
+        "category":"Trends",
+        "price":"$68",
+        "image":"src/assets/images/Spring 2024 Shorts Outfits for Women_ Casual Chic & Denim Trends copy.jpeg"
+    },
+    {
+        "id":3,
+        "name":"Two-Piece",
+        "category":"Two-Piece",
+        "price":"$75",
+        "image":"src/assets/images/2-Piece Mens Summer Outfit copy.jpeg"
+    },
+    {
+        "id":4,
+        "name":"Fur Sweats",
+        "category":"Fur Sweats",
+        "price":"$47",
+        "image":"src/assets/images/Boujee all white fluffy outfit copy.jpeg"
+    },
+    {
+        "id":5,
+        "name":"Scarfs",
+        "category":"Scarfs",
+        "price":"$39",
+        "image":"src/assets/images/_ (12) copy.jpeg"
+    },
+    {
+        "id":6,
+        "name":"Men Sweatshirt",
+        "category":"Sweats",
+        "price":"$56",
+        "image":"src/assets/images/_ (10) copy.jpeg"
+    },
+    {
+        "id":7,
+        "name":"Hoodie x Joggers",
+        "category":"Sweats",
+        "price":"$63",
+        "image":"src/assets/images/_ (9) copy.jpeg"
+    },
+    {
+        "id":8,
+        "name":"Scarfs",
+        "category":"Scarfs",
+        "price":"$45",
+        "image":"src/assets/images/scarfs.jpeg"
+    },
+    {
+        "id":9,
+        "name":"Knitted",
+        "category":"Knitted",
+        "price":"$97",
+        "image":"src/assets/images/knitted.jpeg"
+    },
+    {
+        "id":10,
+        "name":"Banquet Gown",
+        "category":"Gowns",
+        "price":"$63",
+        "image":"src/assets/images/_ (1) copy.jpeg"
+    },
+    {
+        "id":11,
+        "name":"Banquet Gown",
+        "category":"Gowns",
+        "price":"$58",
+        "image":"src/assets/images/_ (2) copy.jpeg"
+    },
+    {
+        "id":12,
+        "name":"Aso-Oke Pants",
+        "category":"Aso-Oke",
+        "price":"$65",
+        "image":"src/assets/images/_ (4) copy.jpeg"
+    },
+    {
+        "id":13,
+        "name":"Lounge-Wear",
+        "category":"Sweats",
+        "price":"$70",
+        "image":"src/assets/images/_ (6) copy.jpeg"
+    },
+    {
+        "id":14,
+        "name":"Leather x Aso-Oke Pants",
+        "category":"Aso-Oke",
+        "price":"$450",
+        "image":"src/assets/images/Aso-oke.jpeg"
+    },
+    {
+        "id":15,
+        "name":"Banquets Gown",
+        "category":"Gowns",
+        "price":"$300",
+        "image":"src/assets/images/Black Dress copy.jpeg"
+    },
+    {
+        "id":16,
+        "name":"Denim",
+        "category":"Denim",
+        "price":"$140",
+        "image":"src/assets/images/denim fashion copy.jpeg"
+    },
+    {
+        "id":17,
+        "name":"Men in Shorts",
+        "category":"Knitted",
+        "price":"$200",
+        "image":"src/assets/images/Men's Vintage Inspired Brown Knit Short Shirt & Shorts Set - 2XL _ Gray copy.jpeg"
+    },
+    {
+        "id":18,
+        "name":"Denim",
+        "category":"Denim",
+        "price":"$85",
+        "image":"src/assets/images/SHEIN USA copy.jpeg"
+    },
+    {
+        "id":19,
+        "name":"Denim",
+        "category":"Denim",
+        "price":"$101",
+        "image":"src/assets/images/Women Fashionable Denim Halterneck And Suspenders Jumpsuit In Bad Girl Style copy.jpeg"
+    },
+    {
+        "id":20,
+        "name":"",
+        "category":"Denim",
+        "price":"$140",
+        "image":"src/assets/images/Women Fashionable Denim Halterneck And Suspenders Jumpsuit In Bad Girl Style copy.jpeg"
+    }
+    
+]

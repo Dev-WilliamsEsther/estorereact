@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.dashboardWrapper{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+.dasboardBoardTop{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: #c8ecff;
+}
+
+.dasboardBoardTopIconsWrapper{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.639);
+}
+
+.profilePic{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    background: #2577fb;
+}
+
+.dasboardBoardBottom{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: whitesmoke;
+}
+
+.insidDasboardBoardBottom{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background: #000; */
+}
+
+.DashboardBalanceContainer, .DashboardOrderHistryContainer{
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.62);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.DashboardRecentOrderContainer, .DashboardNotificationsContainer{
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.417);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.DashboardBalanceContainerHeader{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    /* font-family: "Oswald", serif;    */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    /* background: firebrick; */
+}
+
+.amountHolder, .cashOutAndDepositBtnHolder{
+    width: 40%;
+    height: 70%;
+    font-size: 50px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+    /* background: tomato; */
+    font-family: "Oswald", serif;
+}
+
+.depositBtn{
+    width: max-content;
+    padding: 7px;
+    border: 0;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 290ms;
+    background: rgb(11, 163, 11);
+}
+
+.depositBtn:hover{
+    padding: 10px;
+    transition: 290ms;
+    box-shadow: rgba(255, 255, 255, 0.263) 0px 7px 29px 0px;
+}

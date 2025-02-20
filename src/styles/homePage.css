@@ -207,7 +207,7 @@
     align-items: center;
 
     & img{
-        height: 80%;
+        height: 70%;
     }
 }
 .innertext{
@@ -245,8 +245,8 @@
     height: 40%;
     /* background-color: magenta; */
 
-     & img{
-        height: 100%;
+     & img {
+        height: 70%;
     } 
 }
 .knitted{
@@ -352,22 +352,62 @@
 .news{
     width: 95%;
     height: 45%;
-    background-color: #7ea3a3;
+    background-color: #2aacac;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 20px;
 
     & h1{
         font-family: 'Playfair Display', 'Times New Roman', serif;
-        font-size: 35px;
+        font-size: 45px;
     }
     & p{
         font-family: cursive;
-        font-size: 30px;
+        font-size: 25px;
     }
+}
 
+.emailTextWrapper{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: red; */
+}
 
+.inputemail{
+    width: 40%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    background-color: white;
+    /* border-radius: 20px; */
+}
+.inputemailhere{
+    width: 70%;
+    height: 90%;
+    padding-left: 10px;
+    /* border-radius: 30px; */
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 15px;
+    border-radius: 40px;
+
+}
+.shopnow{
+    width: 30%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    border-radius: 40px;
+    color: white;
+    background: #2577fc;
 }
 .info{
     width: 80%;
@@ -394,39 +434,32 @@
 .images{
     width: 100%;
     height: 320px;
-    /* background-color: red; */
     display: flex;
-    /* align-items: center; */
     /* flex-direction: column; */
     justify-content: space-around;
 }
 .img{
     width: 19%;
     height: 100%;
-    /* background-color: bisque; */
 
     & img{
         height: 100%;
     }
 }
-.footer{
+/* .footer{
     width: 90%;
     height: 480px;
-    /* background-color: pink; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
 }
 .textinfooter{
     width: 22%;
     height: 70%;
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    /* align-items: center; */
 
     & p{
         font-family:'Courier New', Courier, monospace;
@@ -451,7 +484,6 @@
 .media{
     width: 90%;
     height: 200px;
-    /* background-color: peachpuff; */
     display: flex;
     justify-content: space-around;
 
@@ -459,7 +491,6 @@
 .copyright{
     width: 60%;
     height: 50%;
-    /* background-color: cornflowerblue; */
 
     & p{
         color: grey;
@@ -474,7 +505,6 @@
 .icons{
     width: 20%;
     height: 50%;
-    /* background-color: deepskyblue; */
     display: flex;
     justify-content: space-around;
     cursor: pointer;
@@ -484,7 +514,7 @@
 }
 .icons:hover{
     color: blue;
-}
+} */
 
 
 

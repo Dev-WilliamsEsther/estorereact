@@ -1,14 +1,15 @@
 import React from 'react'
 import '../Components/header/Header'
+import Footer from '../Components/footer/footer';
 import "../styles/homePage.css"
 import { BsBox2Fill } from "react-icons/bs";
 import { FaUnlockKeyhole } from "react-icons/fa6";
 import { MdSecurity } from "react-icons/md";
-import { CiHeart } from "react-icons/ci";
-import { RiTwitterFill } from "react-icons/ri";
-import { RiFacebookFill } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
-import { TbWorld } from "react-icons/tb";
+// import { CiHeart } from "react-icons/ci";
+// import { RiTwitterFill } from "react-icons/ri";
+// import { RiFacebookFill } from "react-icons/ri";
+// import { FaInstagram } from "react-icons/fa";
+// import { TbWorld } from "react-icons/tb";
 import ProductDatas from '../productdata/Product.json'
 import 'animate.css';
 
@@ -130,9 +131,17 @@ const HomePage = () => {
 
         <div className='latestnews'>
             <div className='news'>
+                <div className="emailTextWrapper">
                 <h1>Get Our Latest News Offer</h1>
                 <p>Subscribe to news letter here</p>
+                </div>
+
+                <div className='inputemail'>
+                    <input type="text" placeholder='Your email here' className='inputemailhere'  />
+                    <button className='shopnow'>Shop Now</button>
+                </div>
             </div>
+
             <div className='info'>
                 <div className='writeup'> <BsBox2Fill className='iconsize' />
                 <h2>Free Shipping Method</h2>
@@ -171,7 +180,7 @@ const HomePage = () => {
             </div>
         </div>
 
-        <div className='footer'>
+        {/* <div className='footer'>
             <div className='textinfooter'>
                 <h3>We believe fashion should be an expression of confidence,individuality,and comfort.Our collection features trendy,high-quality clothing designed to fit every lifestyle,from casual everyday wear to statement pieces that turn heads.</h3>
             </div>
@@ -208,7 +217,7 @@ const HomePage = () => {
             <FaInstagram />
             <TbWorld />
             </div>
-        </div>
+        </div> */}
 
 
     </div>

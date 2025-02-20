@@ -1,0 +1,336 @@
+.checkoutwrapper{
+    width: 100%;
+    height: max-content;
+    /* background-color: pink; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.checkoutimg{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+}
+.picture{
+    width: 100%;
+    height: 350px;
+    background-color: khaki;
+    background-image: url("../assets/_ (17) copy.jpeg"); 
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h2{
+        color: white;
+        font-size: 50px;
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    }
+}
+.returncustomer{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.return1{
+    width: 90%;
+    height: 50%;
+    /* background-color: rgb(83, 83, 117); */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+
+    & p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+}
+
+.clicktolog{
+    width: 100%;
+    height: 15%;
+    background-color: #eeeded;
+    display: flex;
+    align-items: center;
+}
+
+.userandpass{
+    width: 55%;
+    height: 24%;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loguser{
+    width: 45%;
+    height: 70%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    
+}
+
+.remember{
+    width: 50%;
+    height: 30%;
+    /* background-color: hotpink; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.rememberlogin{
+    width: 20%;
+    height: 70%;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.rememberlogin:hover{
+    background-color: blue;
+    color: white;
+}
+.remind{
+    width: 40%;
+    height: 60%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & button{
+        width: 7%;
+        height: 25%;
+    }
+}
+
+.return2{
+    width: 90%;
+    height: 40%;
+    /* background-color: palegoldenrod; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 30px;
+
+    & p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+.clicktocode{
+    width: 100%;
+    height: 20%;
+    background-color: #eeeded;
+    display: flex;
+    align-items: center;
+}
+.entercode{
+    width: 50%;
+    height: 20%;
+}
+.applycoupon{
+    width: 10%;
+    height: 20%;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+.applycoupon:hover{
+    background-color: blue;
+    color: white;
+}
+
+.billingdetails{
+    width: 100%;
+    height: 1000px;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+.billingform{
+    width: 65%;
+    height: 100%;
+    /* background-color: khaki; */
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    width: 95%;
+    height: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    color: blue;
+}
+.firstndlast{
+    width: 100%;
+    height: 9%;
+    /* background-color: darksalmon; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.username{
+    width: 45%;
+    height: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.nameofcompany{
+    width: 95%;
+    height: 6%;
+    padding-left: 20px;
+}
+
+.acctcreate{
+    width: 20%;
+    height: 5%;
+    /* background-color: lavender; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+
+    & button{
+        width: 7%;
+        height: 30%;
+    }
+}
+
+
+.shipping{
+    width: 95%;
+    height: 40%;
+    /* background-color: slategray; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.shipcreate{
+    width: 30%;
+    height: 15%;
+    /* background-color: lavender; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+
+    & button{
+        width: 7%;
+        height: 30%;
+    }
+}
+
+.order{
+    width: 95%;
+    height: 60%;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+
+.billingorder{
+    width: 35%;
+    height: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderlist{
+    width: 90%;
+    height: 100%;
+    background-color: #eeeded;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.ordertext{
+    width: 80%;
+    height: 8%;
+    /* background-color: hotpink; */
+    border-bottom: 1px solid #485489;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #415094;
+}
+.orders{
+    width: 80%;
+    height: 5%;
+    /* background-color: #415094; */
+    border-bottom: 1px solid grey;
+}
+.checkpayments{
+    width: 80%;
+    height: 5%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.payments{
+    width: 70%;
+    height: 15%;
+    background-color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terms{
+    width: 70%;
+    height: 15%;
+    /* background-color: lavender; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+
+    & button{
+        width: 7%;
+        height: 10%;
+    }
+}
+
+.proceedtopaypal{
+    width: 60%;
+    height: 8%;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.proceedtopaypal:hover{
+    background-color: blue;
+    color: white;
+}

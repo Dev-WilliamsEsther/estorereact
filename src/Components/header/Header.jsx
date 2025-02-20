@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../../styles/header.css"
 import { LiaAngleDownSolid } from "react-icons/lia";
 import { FaSearch } from "react-icons/fa";
@@ -8,6 +8,11 @@ import { NavLink, useNavigate } from 'react-router';
 
 const Header = () => {
     const navigate = useNavigate()
+    const [toggle, setToggle ] = useState(true)
+    const setToggleVisible = () => {
+        setToggle (prevState => !prevState);
+    };
+
   return (
     <>
     <div className='first'>
@@ -17,11 +22,11 @@ const Header = () => {
         <i>+2349054321743</i>
         </div>
         <div className='caty'>
-            <a >My Account</a>
+            <a  onClick={()=> navigate('/login')}>My Account</a> 
             <a >Wish List</a>
-            <a >Shopping</a>
-            <a >Cart</a>
-            <a >Checkout</a>
+            <a  onClick={()=> navigate('/cart')}>Shopping</a> 
+            <a  onClick={()=> navigate('/cart')}>Cart</a> 
+            <a onClick={()=> navigate('/checkout')}>Checkout</a>
         </div>
     </div>
 
@@ -32,9 +37,18 @@ const Header = () => {
         </div>
         <div className='categories'>
             
-        <NavLink to={""}> <a>Home</a> </NavLink>
-                <a>Category</a>
-                <a>Latest</a>
+                <a onClick={()=>navigate("")}>Home</a> 
+                <a onClick={()=>navigate("/category")}>Category</a>
+                <a onClick={setToggleVisible}> Latest</a>
+                {toggle && (
+                    <div className='LatestName'>
+                        <ul>
+                            <li>Product list</li>
+                            <li onClick={()=>navigate('/productdetails')}>Product Details</li>
+                            
+                        </ul>
+                    </div>
+                )}
                 <a>Blog</a>
                 <a>Pages</a>
                 <a>Contacts</a>

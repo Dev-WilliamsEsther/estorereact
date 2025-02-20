@@ -11,7 +11,7 @@ const Footer = () => {
     <>
         <div className='footer'>
             <div className='textinfooter'>
-                <h3>We believe fashion should be an expression of confidence,individuality,and comfort.Our collection features trendy,high-quality clothing designed to fit every lifestyle,from casual everyday wear to statement pieces that turn heads.</h3>
+                <h4>We believe fashion should be an expression of confidence,individuality,and comfort.Our collection features trendy,high-quality clothing designed to fit every lifestyle,from casual everyday wear to statement pieces that turn heads.</h4>
             </div>
             <div className='textinfooter'>
                 <h2>Quick Links</h2>

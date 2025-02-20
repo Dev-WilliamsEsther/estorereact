@@ -33,8 +33,12 @@
 .login{
     width: 70%;
     height: 10%;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
     background-color: #765e43;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
